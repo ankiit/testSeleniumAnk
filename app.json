@@ -1,35 +1,43 @@
 {
-  "name": "selenium-test-un-heroku",
-  "version": "1.0.0",
-  "description": "start",
-  "main": "index.js",
-  
-  "author": "ankit",
-  "license": "ISC",
-  
-
-  "keywords": [
-    "nightwatch",
-    "testing",
-    "browser",
-    "test",
-    "UAT"
-  ],
-  "env": {
-      "buildpacks": [
-        { "url": "heroku/jvm" },
-        { "url": "heroku/nodejs" },
-        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" }
+   "env" : {
+      "buildpacks" : [
+         {
+            "url" : "heroku/jvm"
+         },
+         {
+            "url" : "heroku/nodejs"
+         },
+         {
+            "url" : "https://github.com/heroku/heroku-buildpack-google-chrome"
+         }
       ]
-  },
-
-  "environments": {
-    "test": {
-      "buildpacks": [
-        { "url": "heroku/jvm" },
-        { "url": "heroku/nodejs" },
-        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" }
-      ]
-    }
-  }
+   },
+   "environments" : {
+      "test" : {
+         "buildpacks" : [
+            {
+               "url" : "heroku/jvm"
+            },
+            {
+               "url" : "heroku/nodejs"
+            },
+            {
+               "url" : "https://github.com/heroku/heroku-buildpack-google-chrome"
+            }
+         ]
+      }
+   },
+   "keywords" : [
+      "nightwatch",
+      "testing",
+      "browser",
+      "test",
+      "UAT"
+   ],
+   "description" : "start",
+   "main" : "index.js",
+   "version" : "1.0.0",
+   "license" : "ISC",
+   "name" : "selenium-test-un-heroku",
+   "author" : "ankit"
 }
