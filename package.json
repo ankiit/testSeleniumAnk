@@ -1,0 +1,44 @@
+{
+  "name": "my-uninterrupted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch --env local"
+  },
+  "author": "Vikash",
+  "license": "",
+  "dependencies": {
+    "express": "^4.15.3",
+    "selenium-webdriver": "^3.6.0",
+    "handlebars": "^4.0.11",
+    "nightwatch": "^0.9.9",
+    "nightwatch-html-reporter": "^2.0.4",
+    "node-import": "^0.9.2",
+    "selenium-download": "^2.0.7",
+    "chromedriver": "^2.33.2",
+    "cucumber-html-reporter": "^3.0.4",
+    "env2": "^2.1.1",
+    "mime-types": "^2.1.13",
+    "nodemon": "^1.11.0",
+    "selenium-server": "^3.8.1",
+    "node-gyp": ""
+  },
+  "engines": {
+    "node": "8.1.4",
+    "npm": "5.0.0"
+  },
+  "keywords": [
+    "nightwatch",
+    "testing",
+    "front-end",
+    "UI",
+    "browser",
+    "test",
+    "testing",
+    "step-by-step tutorial",
+    "how to",
+    "User Acceptance Testing",
+    "UAT"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "selenium-test-un-heroku",
+  "version": "1.0.0",
+  "description": "b",
+  "main": "index.js",
+  
+  "author": "Manjunath",
+  "license": "ISC",
+  
+
+  "keywords": [
+    "nightwatch",
+    "testing",
+    "browser",
+    "test",
+    "UAT"
+  ],
+  "env": {
+
+  "buildpacks": [
+        { "url": "heroku/jvm" },
+    {"url": "heroku/nodejs"},
+        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" },
+  ]
+},
+
+  "environments": {
+    "test": {
+      "buildpacks": [
+        { "url": "heroku/jvm" },
+        { "url": "heroku/nodejs" },
+        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" },
+      ]
+    }
+  }
+}
