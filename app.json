@@ -16,13 +16,12 @@
     "UAT"
   ],
   "env": {
-
-  "buildpacks": [
+      "buildpacks": [
         { "url": "heroku/jvm" },
-    {"url": "heroku/nodejs"},
+        { "url": "heroku/nodejs" },
         { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" }
-  ]
-},
+      ]
+  },
 
   "environments": {
     "test": {
