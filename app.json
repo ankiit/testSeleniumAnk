@@ -10,7 +10,6 @@
    "environments" : {
       "test" : {
          "buildpacks" : [
-	    { "url" : "heroku/java"},
             {
                "url" : "heroku/nodejs"
             },
