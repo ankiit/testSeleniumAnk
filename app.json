@@ -4,7 +4,7 @@
   "description": "start",
   "main": "index.js",
   
-  "author": "Manjunath",
+  "author": "ankit",
   "license": "ISC",
   
 
@@ -20,7 +20,7 @@
   "buildpacks": [
         { "url": "heroku/jvm" },
     {"url": "heroku/nodejs"},
-        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" },
+        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" }
   ]
 },
 
@@ -29,7 +29,7 @@
       "buildpacks": [
         { "url": "heroku/jvm" },
         { "url": "heroku/nodejs" },
-        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" },
+        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" }
       ]
     }
   }
