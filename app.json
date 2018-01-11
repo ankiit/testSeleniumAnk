@@ -3,9 +3,6 @@
       "test" : {
          "buildpacks" : [
             {
-               "url" : "heroku/jvm"
-            },
-            {
                "url" : "heroku/nodejs"
             },
             {
