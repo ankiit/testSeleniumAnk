@@ -14,7 +14,7 @@
                "url" : "heroku/nodejs"
             },
             {
-               "url" : "heroku/java"
+               "url" : "https://github.com/heroku/heroku-buildpack-jvm-common"
             },
             {
                "url" : "https://github.com/heroku/heroku-buildpack-chromedriver"
