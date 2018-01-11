@@ -1,4 +1,12 @@
 {
+   "name" : "selenium-test-un-heroku",
+   "keywords" : [
+      "nightwatch",
+      "testing",
+      "browser",
+      "test",
+      "UAT"
+   ],
    "environments" : {
       "test" : {
          "buildpacks" : [
@@ -8,20 +16,15 @@
             {
                "url" : "https://github.com/heroku/heroku-buildpack-google-chrome"
             }
-         ]
+         ],
+         "scripts" : {
+            "test" : "npm run test"
+         }
       }
    },
-   "keywords" : [
-      "nightwatch",
-      "testing",
-      "browser",
-      "test",
-      "UAT"
-   ],
-   "description" : "start",
-   "main" : "index.js",
-   "version" : "1.0.0",
    "license" : "ISC",
-   "name" : "selenium-test-un-heroku",
-   "author" : "ankit"
+   "main" : "index.js",
+   "description" : "start",
+   "author" : "ankit",
+   "version" : "1.0.0"
 }
